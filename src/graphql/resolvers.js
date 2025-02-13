@@ -1,5 +1,5 @@
 const axios = require('axios');
-const bcrypt = require('bcrypt'); // ✅ Importamos bcrypt para hashear la contraseña
+const bcrypt = require('bcryptjs'); // ✅ Importamos bcrypt para hashear la contraseña
 const User = require('../models/user');
 
 const resolvers = {
