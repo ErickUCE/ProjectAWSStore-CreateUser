@@ -16,9 +16,9 @@ const resolvers = {
                 console.log("✅ Usuario creado exitosamente:", user.toJSON());
 
                 const instances = [
-                    'http://3.224.31.24:5006/sync-create',  //read
-                    'http://98.85.148.204:5007/sync-create',  //update
-                    'http://52.54.203.131:5008/sync-create'    // delete
+                    'http://3.213.150.0:5006/sync-create',  //read
+                    'http://13.216.141.108:5007/sync-create',  //update
+                    'http://3.231.45.95:5008/sync-create'    // delete
                 ];
 
                 for (const instance of instances) {
